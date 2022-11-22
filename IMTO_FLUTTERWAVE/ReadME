@@ -1,0 +1,17 @@
+Project Description:
+Project is based on spring boot, Java 8 and Maven.
+
+Directories / Packages
+model - Entity / Object classes.
+service - Interfaces and Classes for performing business logic - API Calls to Flutter Wave.
+controllers - Rest APIs to interact with the application logic. Webhook and call back url also specified here.
+schedulers - Scheduled tasks like get final transaction status.
+
+How To run.
+#Create the jar file
+mvn clean package
+
+Navigate to target directory and run command
+java -jar IMTO_FLUTTERWAVE-0.0.1-SNAPSHOT.jar
+
+Use the postman collection for testing - https://api.postman.com/collections/1328277-efe91652-436c-44c4-bafe-4cf7bd0eee44?access_key=PMAT-01GJB7F764A7F8B7DB6BTAEN0R
